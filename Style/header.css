@@ -1,0 +1,27 @@
+.imgsize img {
+  width: 50px;
+  margin: 5px;
+}
+
+.emoji {
+  width: 50px;
+}
+
+.icons {
+  width: 35px;
+  margin-top: -6px;
+  border-radius: 50%;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../assets/toggelicon.svg") !important;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  right: 0;
+  background: white;
+  left: 0;
+  z-index: 1002;
+}

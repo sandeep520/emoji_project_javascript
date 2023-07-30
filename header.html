@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    />
+    <link rel="stylesheet" href="./Style/header.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <img class="emoji" src="../assets/emojigif.gif" />
+
+        <a class="navbar-brand fw-bold" href="https://emojikeyboard.online/"
+          >Emoji Keyboard</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav d-flex">
+            <li>
+              <a href="./copy-paste-emoji-online.html" class="nav-link bg-white"
+                >All Emoji's</a
+              >
+            </li>
+
+            <li
+              class="socializer a sr-32px sr-circle sr-float sr-bg-white sr-sw-1 sr-pad ms-2 linkdin"
+            >
+              <span
+                onclick="shareEmoji()"
+                class="sr-linkedin sr-text-in linkdin"
+              >
+                <a target="_blank" title="LinkedIn" class="linkdin">
+                  <i class="fab fa-linkedin"></i>
+                  <span class="linkdin">LinkedIn</span></a
+                >
+              </span>
+            </li>
+
+            <li
+              class="socializer a sr-32px sr-circle sr-float sr-bg-white sr-sw-1 sr-pad ms-2 twitter"
+            >
+              <span
+                onclick="shareEmoji()"
+                class="sr-twitter sr-text-in twitter"
+              >
+                <a target="_blank" title="Twitter" class="twitter">
+                  <i class="fab fa-twitter"></i>
+                  <span class="linkdin">Twitter</span></a
+                ></span
+              >
+            </li>
+
+            <li
+              class="socializer a sr-32px sr-circle sr-float sr-bg-white sr-sw-1 sr-pad ms-2 whatsapp"
+            >
+              <span
+                onclick="shareEmoji()"
+                class="sr-whatsapp sr-text-in whatsapp"
+              >
+                <a target="_blank" title="WhatsApp" class="twitter">
+                  <i class="fab fa-whatsapp"></i>
+                  <span class="linkdin">WhatsApp</span></a
+                >
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script src="./index.js"></script>
+  </body>
+
+  <style>
+    @import "../assets/Style/icons.css";
+    @import "../assets/Style/font.css";
+  </style>
+</html>

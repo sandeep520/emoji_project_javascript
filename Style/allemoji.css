@@ -1,0 +1,58 @@
+.footer {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.content {
+  margin: 0 auto;
+}
+.allEmoji {
+  background-color: #ffffff;
+  display: contents;
+}
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #428bca;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.details {
+  color: black;
+  font-weight: bold;
+}
+
+/* button {
+  margin: 10px;
+} */
+button:hover {
+  background-color: rgb(255, 211, 211);
+}
+
+.maincontant {
+  width: 100%;
+}
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-tooltip-bg);
+}
+
+* {
+  font-family: "Poppins";
+}
+.toast-body {
+  background-color: rgb(255, 161, 107);
+  color: white;
+}
